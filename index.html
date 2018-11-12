@@ -1,46 +1,125 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+	<meta charset="utf-8">
+	<title>Title here boi</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
-<body>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="six columns" style="margin-top: 10%">
+					<h4>A Better Template Page</h4>
+					<p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+					<p>
+						<strong>Bolded</strong>
+						<em>Italicized</em>
+						<a>Colored</a>
+						<u>Underlined</u>
+						<code>Code</code>
+					</p>
+				</div>
+				<div class="six columns" style="margin-top: 10%">
+					<h1>Heading</h1>
+					<h2>Heading</h2>
+					<h3>Heading</h3>
+					<h4>Heading</h4>
+					<h5>Heading</h5>
+					<h6>Heading</h6>
+					<br>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="six columns">
+						<a class="button" href="#">Anchor button</a>
+						<button>Button element</button>
+						<input type="submit" value="submit input">
+						<input type="button" value="button input">
+				</div>
+				<div class="six columns">		
+						<a class="button button-primary" href="#">Anchor button</a>
+						<button class="button-primary">Button element</button>
+						<input class="button-primary" type="submit" value="submit input">
+						<input class="button-primary" type="button" value="button input">
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="twelve columns">
+					<form>
+						<div class="row">
+							<div class="six columns">
+								<label for="exampleEmailInput">Your email</label>
+								<input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+							</div>
+							<div class="six columns">
+								<label for="exampleRecipientInput">Reason for contacting</label>
+								<select class="u-full-width" id="exampleRecipientInput">
+									<option value="Option 1">Questions</option>
+									<option value="Option 2">Admiration</option>
+									<option value="Option 3">Can I get your number?</option>
+								</select>
+							</div>
+						</div>
+						<label for="exampleMessage">Message</label>
+						<textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+						<label class="example-send-yourself-copy">
+							<input type="checkbox">
+							<span class="label-body">Send a copy to yourself</span>
+						</label>
+						<input class="button-primary" type="submit" value="Submit">
+					</form>	
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="four columns">
+					<ul>
+						<li>Item 1</li>
+						<li>
+							Item 2
+							<ul>
+							  <li>Item 2.1</li>
+							  <li>Item 2.2</li>
+							</ul>
+						</li>
+						<li>Item 3</li>
+					</ul>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+				</div>
+				<div class="eight columns">
+					<table class="u-full-width">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Age</th>
+								<th>Sex</th>
+								<th>Location</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Dave Gamache</td>
+								<td>26</td>
+								<td>Male</td>
+								<td>San Francisco</td>
+							</tr>
+							<tr>
+								<td>Dwayne Johnson</td>
+								<td>42</td>
+								<td>Male</td>
+								<td>Hayward</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<hr>
+		</div>
+	</body>
 </html>
